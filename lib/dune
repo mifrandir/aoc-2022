@@ -1,4 +1,5 @@
 (library
-  (name aoc2022)
-  (libraries core async sexplib)
-  (preprocess (pps ppx_jane)))
+ (name aoc2022)
+ (libraries core async sexplib)
+ (preprocess
+  (pps ppx_jane)))

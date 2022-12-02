@@ -1,3 +1,3 @@
 open! Core
 
-let () = Aoc2022.Day1.main ()
+let () = Aoc2022.Day2.main ()
