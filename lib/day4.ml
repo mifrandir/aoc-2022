@@ -39,7 +39,7 @@ module Pair = struct
   let is_overlapping t = not (is_disjoint t)
 end
 
-let main () =
+let run () =
   let pairs = Utils.read_until_eof () |> List.map ~f:Pair.of_line in
   let num_fully_overlapping =
     pairs |> List.filter ~f:Pair.is_fully_overlapping |> List.length

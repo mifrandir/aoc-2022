@@ -91,7 +91,7 @@ module Round = struct
   ;;
 end
 
-let main () =
+let run () =
   let lines = Utils.read_until_eof () in
   let score =
     let rounds = List.map ~f:Round.of_line lines in

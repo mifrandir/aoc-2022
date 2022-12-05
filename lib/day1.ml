@@ -22,7 +22,7 @@ let calories_per_elf (lines : string list) =
               | number -> int_of_string number))
 ;;
 
-let main () =
+let run () =
   let calories =
     let input = Utils.read_until_eof () in
     calories_per_elf input

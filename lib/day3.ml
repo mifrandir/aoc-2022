@@ -44,7 +44,7 @@ module Rucksack = struct
   ;;
 end
 
-let main () =
+let run () =
   let rucksacks = Utils.read_until_eof () |> List.map ~f:Rucksack.of_line in
   let sum_of_shared_priorities_by_compartment =
     rucksacks
