@@ -8,5 +8,5 @@ let read_until_eof () =
     with
     | End_of_file -> acc
   in
-  helper []
+  helper [] |> List.rev
 ;;
